@@ -111,6 +111,10 @@
 				"Linux",
 				"Android"
 			]
+		},
+		{
+			"Name": "DisplayClusterLaunch",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
