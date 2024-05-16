@@ -30,7 +30,7 @@
     "muserver_auto_join": false,
     "muserver_archive_dir": "",
     "muserver_working_dir": "",
-    "current_level": "/Game/Maps/Main",
+    "current_level": null,
     "devices": {
         "KiPro": {
             "settings": {
@@ -184,7 +184,7 @@
                 "custom_sync_view": ""
             },
             "Unreal_DELL": {
-                "address": "192.168.0.61",
+                "address": "192.168.1.3",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -197,10 +197,12 @@
                 "last_log_path": "",
                 "last_trace_path": "",
                 "exclude_from_build": false,
-                "last_sync_filter_hash": ""
+                "last_sync_filter_hash": "",
+                "engine_dir": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine",
+                "uproject": "C:\\Users\\user\\Documents\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject"
             },
             "Unreal_OMEN02": {
-                "address": "192.168.0.65",
+                "address": "192.168.1.4",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -217,7 +219,7 @@
                 "uproject": "D:\\Unreal_Project\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject"
             },
             "Unreal_OMEN05": {
-                "address": "192.168.0.64",
+                "address": "192.168.1.5",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -339,7 +341,7 @@
                 "config_graphics_adapter": -1
             },
             "Render_C": {
-                "address": "192.168.0.142",
+                "address": "192.168.1.3",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -364,7 +366,8 @@
                 ],
                 "fullscreen": false,
                 "headless": false,
-                "config_graphics_adapter": -1
+                "config_graphics_adapter": -1,
+                "ndisplay_cmd_args": "-XRtrackingonly"
             }
         },
         "Shogun": {
