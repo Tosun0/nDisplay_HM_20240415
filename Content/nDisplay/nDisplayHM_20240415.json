@@ -30,7 +30,7 @@
     "muserver_auto_join": true,
     "muserver_archive_dir": "",
     "muserver_working_dir": "",
-    "current_level": null,
+    "current_level": "/Game/Maps/Lv_Outdoor",
     "devices": {
         "KiPro": {
             "settings": {
@@ -245,7 +245,7 @@
                     "LinuxEditor"
                 ],
                 "autojoin_mu_server": true,
-                "last_launch_command": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" None  Log=Tosun.log -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"Hi_Hello_07\" -CONCERTDISPLAYNAME=\"Tosun\" -StageFriendlyName=\"Tosun\" -DPCVars=\"Slate.bAllowThrottling=0\" -ConcertReflectVisibility=1 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.61:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.61:9030\" -ini:Engine:[/Script/ConcertTakeRecorder.ConcertSessionRecordSettings]:LocalSettings=(bRecordOnClient=True)",
+                "last_launch_command": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" /Game/Maps/Lv_Outdoor  Log=Tosun.log -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"Hi_Hello_07\" -CONCERTDISPLAYNAME=\"Tosun\" -StageFriendlyName=\"Tosun\" -DPCVars=\"Slate.bAllowThrottling=0\" -ConcertReflectVisibility=1 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.61:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.61:9030\" -ini:Engine:[/Script/ConcertTakeRecorder.ConcertSessionRecordSettings]:LocalSettings=(bRecordOnClient=True)",
                 "last_log_path": "D:\\Unreal Projects\\nDisplay_HM_20240415\\Saved\\Logs\\Switchboard\\Tosun.log",
                 "last_trace_path": "",
                 "exclude_from_build": false,
