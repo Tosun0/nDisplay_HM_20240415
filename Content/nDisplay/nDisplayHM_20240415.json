@@ -22,7 +22,7 @@
     "multiuser_exe": "UnrealMultiUserServer",
     "multiuserslate_exe": "UnrealMultiUserSlateServer",
     "muserver_auto_launch": true,
-    "muserver_slate_mode": true,
+    "muserver_slate_mode": false,
     "muserver_clean_history": false,
     "muserver_auto_build": true,
     "muserver_auto_endpoint": true,
