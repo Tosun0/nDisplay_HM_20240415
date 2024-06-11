@@ -22,7 +22,7 @@
     "multiuser_exe": "UnrealMultiUserServer",
     "multiuserslate_exe": "UnrealMultiUserSlateServer",
     "muserver_auto_launch": true,
-    "muserver_slate_mode": false,
+    "muserver_slate_mode": true,
     "muserver_clean_history": false,
     "muserver_auto_build": true,
     "muserver_auto_endpoint": true,
@@ -30,7 +30,7 @@
     "muserver_auto_join": true,
     "muserver_archive_dir": "",
     "muserver_working_dir": "",
-    "current_level": "/Game/Maps/Lv_Outdoor",
+    "current_level": "/Game/Maps/Lv_Indoor",
     "devices": {
         "KiPro": {
             "settings": {
@@ -184,7 +184,7 @@
                 "custom_sync_view": ""
             },
             "Unreal_DELL": {
-                "address": "192.168.1.3",
+                "address": "192.168.0.242",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -198,11 +198,10 @@
                 "last_trace_path": "",
                 "exclude_from_build": false,
                 "last_sync_filter_hash": "",
-                "engine_dir": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine",
-                "uproject": "C:\\Users\\user\\Documents\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject"
+                "engine_dir": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine"
             },
             "Unreal_OMEN02": {
-                "address": "192.168.1.4",
+                "address": "192.168.0.244",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -216,10 +215,10 @@
                 "last_trace_path": "",
                 "exclude_from_build": false,
                 "last_sync_filter_hash": "",
-                "uproject": "D:\\Unreal_Project\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject"
+                "uproject": "E:\\Unreal_Project\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject"
             },
             "Unreal_OMEN05": {
-                "address": "192.168.1.2",
+                "address": "192.168.0.246",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -271,12 +270,12 @@
         },
         "nDisplay": {
             "settings": {
-                "ndisplay_cfg_file": "D:\\Unreal Projects\\nDisplay_HM_20240415\\Content\\nDisplay\\2DScenes\\Scene_07_nDisplay_Config.uasset",
+                "ndisplay_cfg_file": "D:\\Unreal Projects\\nDisplay_HM_20240415\\Content\\nDisplay\\TechLab_nDisplay_Config.uasset",
                 "use_all_available_cores": false,
                 "texture_streaming": true,
                 "render_api": "dx12",
                 "multiplayer_mode": "None",
-                "dedicated_server_address": "192.168.0.61",
+                "dedicated_server_address": "192.168.0.242",
                 "dedicated_server_port": "7777",
                 "render_mode": "Mono",
                 "render_sync_policy": "Config",
@@ -318,7 +317,7 @@
                 "stage_session_id": 0
             },
             "Wall_M": {
-                "address": "127.0.0.1",
+                "address": "192.168.0.242",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -327,12 +326,12 @@
                     "LinuxEditor"
                 ],
                 "autojoin_mu_server": true,
-                "last_launch_command": "",
-                "last_log_path": "",
+                "last_launch_command": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game /Game/Maps/Lv_Indoor -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_M\"  -MaxGPUCount=2 -dc_cfg=\"C:\\Users\\user\\AppData\\Local\\Temp\\ndisplay\\0B889A124BAF2977BC204FA722E79A43.ndisplay\" -dx12 -dc_dev_mono   -dc_node=Wall_M Log=Wall_M.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.242:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.242:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"MU_Session\" -CONCERTDISPLAYNAME=\"Wall_M\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
+                "last_log_path": "D:\\Unreal Projects\\nDisplay_HM_20240415\\Saved\\Logs\\Switchboard\\Wall_M.log",
                 "last_trace_path": "",
                 "exclude_from_build": false,
                 "last_sync_filter_hash": "",
-                "ue_command_line": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game  -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_M\"  -MaxGPUCount=2 -dc_cfg=\"D:\\Unreal Projects\\nDisplay_HM_20240415\\Content\\nDisplay\\2DScenes\\Scene_07_nDisplay_Config.uasset\" -dx12 -dc_dev_mono   -dc_node=Wall_M Log=Wall_M.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"127.0.0.1:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.61:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"Hi_Hello_08\" -CONCERTDISPLAYNAME=\"Wall_M\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
+                "ue_command_line": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game /Game/Maps/Lv_Indoor -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_M\"  -MaxGPUCount=2 -dc_cfg=\"C:\\Users\\user\\AppData\\Local\\Temp\\ndisplay\\0B889A124BAF2977BC204FA722E79A43.ndisplay\" -dx12 -dc_dev_mono   -dc_node=Wall_M Log=Wall_M.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.242:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.242:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"MU_Session\" -CONCERTDISPLAYNAME=\"Wall_M\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
                 "window_position": [
                     0,
                     0
@@ -346,7 +345,7 @@
                 "config_graphics_adapter": -1
             },
             "Wall_L": {
-                "address": "127.0.0.2",
+                "address": "192.168.0.244",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -355,12 +354,12 @@
                     "LinuxEditor"
                 ],
                 "autojoin_mu_server": true,
-                "last_launch_command": "",
-                "last_log_path": "",
+                "last_launch_command": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"E:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game /Game/Maps/Lv_Indoor -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_L\"  -MaxGPUCount=2 -dc_cfg=\"C:\\Users\\test\\AppData\\Local\\Temp\\ndisplay\\A5D6874046610EA809A5B180472CAE94.ndisplay\" -dx12 -dc_dev_mono   -dc_node=Wall_L Log=Wall_L.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.244:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.242:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"MU_Session\" -CONCERTDISPLAYNAME=\"Wall_L\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
+                "last_log_path": "D:\\Unreal Projects\\nDisplay_HM_20240415\\Saved\\Logs\\Switchboard\\Wall_L.log",
                 "last_trace_path": "",
                 "exclude_from_build": false,
                 "last_sync_filter_hash": "",
-                "ue_command_line": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game  -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_L\"  -MaxGPUCount=2 -dc_cfg=\"D:\\Unreal Projects\\nDisplay_HM_20240415\\Content\\nDisplay\\2DScenes\\Scene_07_nDisplay_Config.uasset\" -dx12 -dc_dev_mono   -dc_node=Wall_L Log=Wall_L.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"127.0.0.2:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.61:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"Hi_Hello_08\" -CONCERTDISPLAYNAME=\"Wall_L\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
+                "ue_command_line": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"E:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game /Game/Maps/Lv_Indoor -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_L\"  -MaxGPUCount=2 -dc_cfg=\"C:\\Users\\test\\AppData\\Local\\Temp\\ndisplay\\A5D6874046610EA809A5B180472CAE94.ndisplay\" -dx12 -dc_dev_mono   -dc_node=Wall_L Log=Wall_L.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.244:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.242:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"MU_Session\" -CONCERTDISPLAYNAME=\"Wall_L\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
                 "window_position": [
                     0,
                     0
@@ -371,10 +370,11 @@
                 ],
                 "fullscreen": false,
                 "headless": false,
-                "config_graphics_adapter": -1
+                "config_graphics_adapter": -1,
+                "uproject": "E:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject"
             },
             "Wall_R": {
-                "address": "127.0.0.3",
+                "address": "192.168.0.246",
                 "roles": [],
                 "ddc_build_platforms": [
                     "Windows",
@@ -383,12 +383,12 @@
                     "LinuxEditor"
                 ],
                 "autojoin_mu_server": true,
-                "last_launch_command": "",
-                "last_log_path": "",
+                "last_launch_command": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game /Game/Maps/Lv_Indoor -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_R\"  -MaxGPUCount=2 -dc_cfg=\"C:\\Users\\net\\AppData\\Local\\Temp\\ndisplay\\27B613874F4E81EC1E5993A3091472AE.ndisplay\" -dx12 -dc_dev_mono   -dc_node=Wall_R Log=Wall_R.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.246:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.242:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"MU_Session\" -CONCERTDISPLAYNAME=\"Wall_R\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
+                "last_log_path": "D:\\Unreal Projects\\nDisplay_HM_20240415\\Saved\\Logs\\Switchboard\\Wall_R.log",
                 "last_trace_path": "",
                 "exclude_from_build": false,
                 "last_sync_filter_hash": "",
-                "ue_command_line": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game  -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_R\"  -MaxGPUCount=2 -dc_cfg=\"D:\\Unreal Projects\\nDisplay_HM_20240415\\Content\\nDisplay\\2DScenes\\Scene_07_nDisplay_Config.uasset\" -dx12 -dc_dev_mono   -dc_node=Wall_R Log=Wall_R.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"127.0.0.3:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.61:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"Hi_Hello_08\" -CONCERTDISPLAYNAME=\"Wall_R\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
+                "ue_command_line": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe \"D:\\Unreal Projects\\nDisplay_HM_20240415\\nDisplay_HM_20240415.uproject\" -game /Game/Maps/Lv_Indoor -messaging -dc_cluster -nosplash -fixedseed -NoVerifyGC -noxrstereo -xrtrackingonly -RemoteControlIsHeadless   -StageFriendlyName=\"Wall_R\"  -MaxGPUCount=2 -dc_cfg=\"C:\\Users\\net\\AppData\\Local\\Temp\\ndisplay\\27B613874F4E81EC1E5993A3091472AE.ndisplay\" -dx12 -dc_dev_mono   -dc_node=Wall_R Log=Wall_R.log -ini:Engine:[/Script/Engine.Engine]:GameEngine=/Script/DisplayCluster.DisplayClusterGameEngine,[/Script/Engine.Engine]:GameViewportClientClassName=/Script/DisplayCluster.DisplayClusterViewportClient,[/Script/Engine.UserInterfaceSettings]:bAllowHighDPIInGameMode=True -ini:Game:[/Script/EngineSettings.GeneralProjectSettings]:bUseBorderlessWindow=True -ini:Input:[/Script/Engine.InputSettings]:DefaultPlayerInputClass=/Script/DisplayCluster.DisplayClusterPlayerInput -unattended -NoScreenMessages -handleensurepercent=0 -UDPMESSAGING_TRANSPORT_MULTICAST=\"230.0.0.1:6666\" -UDPMESSAGING_TRANSPORT_UNICAST=\"192.168.0.246:0\" -UDPMESSAGING_TRANSPORT_STATIC=\"192.168.0.242:9030\" -ExecCmds=\"DisableAllScreenMessages\" -windowed -forceres WinX=0 WinY=0 ResX=3024 ResY=1512 -CONCERTRETRYAUTOCONNECTONERROR -CONCERTAUTOCONNECT -CONCERTSERVER=\"nDisplayHM_20240415_MU_Server\" -CONCERTSESSION=\"MU_Session\" -CONCERTDISPLAYNAME=\"Wall_R\" -CONCERTISHEADLESS -DPCVars=\"Slate.bAllowNotifications=0,p.Chaos.Solver.Deterministic=1\" ",
                 "window_position": [
                     0,
                     0
