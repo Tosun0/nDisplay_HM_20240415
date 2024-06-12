@@ -123,6 +123,10 @@
 		{
 			"Name": "OptitrackNatnet",
 			"Enabled": true
+		},
+		{
+			"Name": "ArriCamMetadata",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
